@@ -16,8 +16,8 @@ greenlet==0.4.17 ; sys_platform != 'win32' and python_version > '3.7' and python
 greenlet==1.1.2 ; sys_platform != 'win32' and python_version > '3.9' and python_version < '3.12' # (Jammy)
 greenlet==3.0.3 ; sys_platform != 'win32' and python_version >= '3.12'  # (Noble)
 idna==2.8
-Jinja2==2.11.3 ; python_version < '3.12' # min version = 2.10.1 (Focal - with security backports)
-Jinja2==3.1.2 ; python_version >= '3.12'  # (Noble) compatibility with markupsafe
+Jinja2==3.1.5 ; python_version < '3.12' # min version = 2.10.1 (Focal - with security backports)
+Jinja2==3.1.5 ; python_version >= '3.12'  # (Noble) compatibility with markupsafe
 libsass==0.18.0 ; python_version < '3.12'
 libsass==0.22.0 ; python_version >= '3.12'  # (Noble) Mostly to have a wheel package
 lxml==4.6.5; python_version < '3.12' # min version = 4.5.0 (Focal - with security backports)
